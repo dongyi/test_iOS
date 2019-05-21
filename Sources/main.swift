@@ -6,6 +6,7 @@ import Curassow
 
 
 serve { _ in
-  return Response(.ok, contentType: "text/plain", content: "Hello World\n")
+       var a = 1;
+       return Response(.ok, contentType: "text/plain", content: "Hello World\n")
 }
 
